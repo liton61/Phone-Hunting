@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#input-field {
+    padding: 15px 150px 15px 15px;
+    border-radius: 40px 0px 0px 40px;
+    border: none;
+}
+
+#input-field:focus {
+    outline: none;
+}
+
+#search-btn {
+    padding: 15px 30px;
+    border-radius: 0px 40px 40px 0px;
+    border: none;
+    background-color: rgb(83, 83, 242);
+    color: white;
+}
+
+#search-btn:focus {
+    outline: none;
+}
+
+.parent-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+}
+
+#phone-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    margin-top: 20px;
+}
+
+.card-body p {
+    text-align: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.details-btn {
+    background-color: rgb(83, 83, 242);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+#show-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.hidden{
+    visibility: hidden;
+}
+#show-btn{
+    background-color: rgb(83, 83, 242);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+}
