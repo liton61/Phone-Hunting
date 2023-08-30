@@ -49,4 +49,4 @@ const searchBtn = () => {
     inputField.value = '';
 }
 
-// loadPhone();
+loadPhone('1');
